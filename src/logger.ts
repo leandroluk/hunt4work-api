@@ -1,5 +1,5 @@
 import winston from 'winston';
-import vars from './vars';
+import vars from '$/vars';
 
 const logger = winston.createLogger({
   level: 'info',
