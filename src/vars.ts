@@ -5,7 +5,7 @@ export default {
   api: {
     name: packageJson.name,
     path: cwd(),
-    port: Number(env.api_port ?? 3000),
+    port: Number(env.api_port ?? 3001),
     corsOrigin: env.api_corsOrigin ?? '*',
   },
   mongo: {
