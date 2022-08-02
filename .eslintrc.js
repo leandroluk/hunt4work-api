@@ -17,5 +17,6 @@ module.exports = {
   'rules': {
     'object-curly-spacing': 'off',
     'indent': ['error', 2, { 'SwitchCase': 1 }],
+    'new-cap': 'off',
   },
 };
