@@ -26,7 +26,7 @@
     "dotenv": "^16.0.1",
     "eslint": "^8.21.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-sonar": "^0.0.8",
+    "eslint-plugin-sonarjs": "^0.14.0",
     "express-winston": "^4.2.0",
     "helmet": "^5.1.1",
     "jest": "^28.1.3",

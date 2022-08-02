@@ -3,17 +3,13 @@ module.exports = {
     'es2021': true,
     'node': true,
   },
-  'extends': [
-    'google',
-  ],
+  'extends': ['google', 'plugin:sonarjs/recommended'],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaVersion': 'latest',
     'sourceType': 'module',
   },
-  'plugins': [
-    '@typescript-eslint',
-  ],
+  'plugins': ['@typescript-eslint', 'sonarjs'],
   'rules': {
     'object-curly-spacing': 'off',
     'indent': ['error', 2, { 'SwitchCase': 1 }],
