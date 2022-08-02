@@ -6,7 +6,7 @@ const errors: Record<string, number> = {
   ConflitError: 409,
 };
 
-export const errorHandlerMiddleware = (
+export const errorHandler = (
   { name, message }: Error,
   _req: Request,
   res: Response,
